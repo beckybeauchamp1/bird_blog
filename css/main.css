@@ -1,0 +1,44 @@
+header{
+	font-family: Arial;
+	color: white;
+	text-align: center;
+	background-image: url("http://www.fs.fed.us/climatechange/advisor/images/scorecard.jpg");
+	background-size: cover;
+	padding-top: 200px;
+}
+header h1{
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+header ul{
+	padding: 10px;
+	background-color: black;
+}
+header li{
+	display: inline;
+	padding:0px 10px 0px 10px;
+}
+header a{
+	color: white;
+}
+img{
+ 	margin-top: 40px;
+	border-radius: 20px;
+	border: 4px; black solid;
+}
+nav{
+	background-color: black;
+}
+nav a{
+	text-decoration: none;
+}
+article{
+	max-width: 500px;	
+	padding: 20px;
+	margin: 0 auto;
+}
+@media (max-width: 700px){
+	body{
+	background: red;
+	}
+}
